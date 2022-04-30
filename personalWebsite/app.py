@@ -44,16 +44,42 @@ with st.container():
         #st.write("##")
         st.write(
             """
-            Junior year at Stony Brook University:
-            - Studying Technological Systems Management with a specialization in Computer Science.
+            - Awarded King Clancy Award as a varsity player who best exemplified leadership on and off the field
+            - Junior Volunteer Firefighter | September 2016 - June 2019
+            - Student Athelete playing Lacrosse
             - Programming: My SQL, Python, Java, and VBA.
             - Computer Operation: Windows OS, macOS, PowerPoint, Excel.
-            - Student Athelete playing Lacrosse
+            
+            """
+        )
+        
+    with right_column:
+        st.header("Education")
+        st.write(
+            """
+            Stony Brook University:
+            - Bachelor of Science in Technological Systems Management With  a Specialization  in Computer Science
+            - Expected Graduation May 2023
+            - GPA: TBD
+            - Men's Lacrosse Team
             """
         )
         st.write("[Stony Brook Men's Lacrosse Roster >](https://stonybrookathletics.com/sports/mens-lacrosse/roster/nick-squicciarini/7638)")
-  
 
+    with right_column:
+        st.write(
+            """
+             Long Island University:
+            -Bachelor of Science in Comnputer Science
+            - September 2019- May 2021
+            - GPA: 3.57
+            - Men's Lacrosse Team
+            """
+        )
+        st.write("[Long Island University Men's Lacrosse Roster >](https://www.liuathletics.com/sports/mens-lacrosse/roster/nick-squicciarini/1045)")
+
+           
+        
 # ---- PROJECTS ----
 
 #----ECLI Vibes Project
