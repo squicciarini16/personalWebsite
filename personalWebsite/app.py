@@ -38,7 +38,7 @@ with st.container():
 # ---- A little about me 
 with st.container():
     st.write("---")
-    left_column, right_column = st.columns(2)
+    left_column, right_column, middle_column= st.columns((2,2,1))
     with left_column:
         st.header("A Little About Me!")
         #st.write("##")
@@ -52,12 +52,12 @@ with st.container():
             
             """
         )
-        
+
     with right_column:
         st.header("Education")
+        st.subheader("Stony Brook University")
         st.write(
             """
-            Stony Brook University:
             - Bachelor of Science in Technological Systems Management With  a Specialization  in Computer Science
             - Expected Graduation May 2023
             - GPA: TBD
@@ -67,17 +67,31 @@ with st.container():
         st.write("[Stony Brook Men's Lacrosse Roster >](https://stonybrookathletics.com/sports/mens-lacrosse/roster/nick-squicciarini/7638)")
 
     with right_column:
+        st.subheader("Long Island University")
         st.write(
             """
-             Long Island University:
-            -Bachelor of Science in Comnputer Science
+            -Bachelor of Science in Computer Science
             - September 2019- May 2021
             - GPA: 3.57
             - Men's Lacrosse Team
             """
         )
         st.write("[Long Island University Men's Lacrosse Roster >](https://www.liuathletics.com/sports/mens-lacrosse/roster/nick-squicciarini/1045)")
-
+    
+    with middle_column:
+        st.header("Skills")
+        st.write(
+            """
+            - MySQL                
+            - Python               
+            - Java               
+            - VBA    
+            - github
+            - VS Code
+            - Windows OS
+            - Mac OSX
+            """
+        )
            
         
 # ---- PROJECTS ----
@@ -101,6 +115,8 @@ with st.container():
             """
         )
         st.markdown("[Link to GitHub](https://github.com/squicciarini16/ecliVibes)")
+
+st.write("##")
 
 #---- Shooting Analysis Project
 with st.container():
